@@ -3857,6 +3857,25 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
+.navbar-fixed {
+  margin-bottom: 20px; /* Adjust this margin as needed */
+}
+
+.fixed-horizontal-bar {
+  align-items: flex-start;
+  height: 20px;
+  background-color: #09213a; /* Set the background color as per your design */
+  color: #ffffff; /* Set the text color as per your design */
+  text-align: left; /* Align text to the left */
+  padding-left: 250px; /* Add left padding of 100px */
+  display: flex; /* Enable flexbox layout for align-items to work */
+  justify-content: flex-start; /* Align content to the start (left) */
+}
+
+.contact-number {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
